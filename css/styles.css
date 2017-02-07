@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  font-family: sans-serif; }
+
+.tomato-background {
+  background-image: url("../images/tomato-red-silhouette.svg");
+  background-size: cover;
+  position: relative;
+  height: 1000px;
+  width: 90%;
+  margin-top: -200px;
+  margin-bottom: 50px; }
+
+.u_overlay {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  opacity: .5;
+  border-radius: 8px; }
+
+.text-output {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.countdown-box {
+  position: absolute;
+  color: #F7CA18;
+  top: 50%;
+  left: 40%;
+  font-size: 50px;
+  font-weight: lighter; }
+
+.column-container {
+  font-size: 0; }
+
+.column-container > * {
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: medium; }
+
+.input-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px; }
+
+.input-area {
+  width: 85%;
+  border-bottom: solid medium black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 6px;
+  font-size: 20px; }
+
+.input-box button {
+  text-decoration: none;
+  text-align: center;
+  width: 10%;
+  color: #fff;
+  background-color: #2574A9;
+  margin-bottom: 0;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  padding-top: 2px; }
+
+input:focus {
+  outline: none; }
+
+.disappear {
+  display: none; }
+
+.complete {
+  color: #C8F7C5;
+  margin-left: -5%; }
+
+/*# sourceMappingURL=styles.css.map */
